@@ -2,6 +2,8 @@
 
 CFLAGS=-Wall -g
 
+all : driver
+
 driver: driver.o rbtree.o
 
 clean:
